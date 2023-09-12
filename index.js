@@ -96,8 +96,19 @@
 
 //!start
 
+const askPrompts = require('./lib/prompts');
+
+function getData() {
+    return new Promise((resolve,reject)=>{
+        try {
+            resolve( askPrompts());        
+            //console.log(response);
+        } catch (error) {
+            
+        }  
+    })    
+}
 
 
-
-
+getData();
 //!end
