@@ -39,59 +39,6 @@
  * 
 */
 
-/*      MOCK UP NOTES
- *_______________________________________________________________________________
- * 
- * 
-*/
-
-/*      OTHER NOTES
- *      GENERAL FLOW OF SITES
- *_______________________________________________________________________________
- * 
- * file - unit testing / jest
- *      //! TODO First for TDD; following can be used as basis
- * 
- * file - index (main)
- * -------------------------
- *          shape          |
- * -------------------------
- *      width: int         |
- *      height: int        |
- *      tag: String        |
- *                         |
- * ------------------------|
- *      setColor: Color    |
- *      get                |
- * -------------------------      
- *  
- * file - inquirer
- *      ask 3 letters and its color
- *      ask shape and its color
- *      handle conflict
- *      bonus - warn: color too similar
- *
- * -------------------------
- *          color          |
- * -------------------------
- *                         |
- * -------------------------
- *      set (validate in)  |
- *      get                |
- * -------------------------
- * file - shape
- *      set (validate in)
- *      get
- * -------------------------
- *          svg            |
- * -------------------------
- *                         |
- * -------------------------
- *      set (validate in)  |
- *      get                |
- * -------------------------
- * file - 
-*/
 // #endregion
 
 //!start
@@ -101,8 +48,7 @@ const askPrompts = require('./lib/prompts');
 function getData() {
     return new Promise((resolve,reject)=>{
         try {
-            resolve( askPrompts());        
-            //console.log(response);
+            resolve(askPrompts());        
         } catch (error) {
             
         }  

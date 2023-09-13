@@ -4,7 +4,12 @@
 
 ## Description
 
-The objective of this project is to generate a simple logo for projects
+The objective of this project is to generate a simple logo for projects.
+The goal was to create logo faster by imposing text on top of a colored shape.
+We wanted to limit the characters up to 3 we have decided most things could be a three letter acronym (TLA).
+But also because we wanted to make sure the shapes were uniformly bound to a 300x200 size
+
+![current output](output.svg)
 
 ## Table of Contents
 
@@ -14,8 +19,6 @@ The objective of this project is to generate a simple logo for projects
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [How to Contribute](#how-to-contribute)
-  - [Tests](#tests)
   - [Questions](#questions)
 
 ## Installation
@@ -24,22 +27,16 @@ Download the zip file from my github repo
 
 ## Usage
 
-Open it up in terminal and run it with node index.js
+- Open it up in terminal
+- run it with node index.js
+- Move ``the output.svg`` to whereever you need it
+
+[Video link](https://drive.google.com/file/d/1M58eROMNVkfpWOD2fn5kNc3jWL1vafEd/view)
 
 ## License
 
 [No License](https://choosealicense.com/no-permission/)
 
-## How to Contribute
-
-Clone your own
-
-## Tests
-
-Run test with
-```
-npm run test
-```
 
 ## Questions
 
